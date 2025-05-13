@@ -1,0 +1,50 @@
+# -------------------------------
+# .NET / ASP.NET Core
+# -------------------------------
+**/bin/
+**/obj/
+**/*.user
+**/*.suo
+**/*.userosscache
+**/*.sln.docstates
+.vscode/
+*.dbmdl
+*.dbproj.schemaview
+*.pdb
+*.cache
+*.log
+*.vs/
+*.ncrunch*
+*.localhistory/
+*.idea/
+*.sln.docstates
+/logs/
+
+# -------------------------------
+# Node / React
+# -------------------------------
+**/node_modules/
+**/build/
+**/dist/
+**/.env
+**/.env.*.local
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/package-lock.json # optional, if you don’t want to commit it
+
+# -------------------------------
+# OS / Tooling
+# -------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+*.bak
+*.log
+
+# -------------------------------
+# Test Results
+# -------------------------------
+**/TestResults/
+**/coverage/

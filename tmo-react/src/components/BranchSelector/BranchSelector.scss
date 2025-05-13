@@ -1,0 +1,14 @@
+.branch-selector {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.branch-select {
+  padding: 0.5rem;
+  font-size: 1rem;
+
+  @media (max-width: 600px) {
+    font-size: 0.9rem;
+  }
+}
